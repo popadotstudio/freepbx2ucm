@@ -6,7 +6,12 @@ The idea behind this script was to ease the transition from FreePBX-based Asteri
 
 *Note: There is pending work on a DID bulk import, however that process will be slightly more involved*
 
-##Installation
+##Installation with Binaries
+Downloadable binaries for both Windows and Mac are available here:
+[FreePBX to Grandstream UCM CSV Converter Windows/Mac Binaries - freepbx2ucm](http://northshoreit.me/freepbx-to-grandstream-ucm-freepbx2ucm/)
+Simply download and extract the zip.
+
+##Installation with PIP
 The script is written in Python 3.5 (it could be ported to lower 3.x versions but there I see no reason for it currently).
 Clone the repo and get started:
 ~~~
@@ -14,7 +19,7 @@ git clone https://github.com/veryxcit/freepbx2ucm.git
 cd freepbx2ucm
 pip install -r requirements.txt
 ~~~
-
+---
 ##Quickstart
 * Log into your favorite FreePBX based distro, and make sure you have the [Bulk Extensions](http://wiki.freepbx.org/display/FPG/Bulk+Extensions).
 * Export your CSV and save it in the same dir as freepbx2ucm [here's a video I found](https://www.youtube.com/watch?v=TChvvUb7OPghttps://www.youtube.com/watch?v=TChvvUb7OPg).
