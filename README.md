@@ -11,9 +11,7 @@ Downloadable binaries for both Windows and Mac are available here:
 
 [FreePBX Bulk Extensions CSV to Grandstream UCM CSV Converter Windows/Mac Binaries - freepbx2ucm](http://northshoreit.me/freepbx-to-grandstream-ucm-freepbx2ucm/)
 
-Simply download and extract the zip.
-
-##Installation with PIP
+##Installation with git/pip
 The script is written in Python 3.5 (it could be ported to lower 3.x versions but there I see no reason for it currently).
 Clone the repo and get started:
 ~~~
