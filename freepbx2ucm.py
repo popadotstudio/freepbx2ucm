@@ -210,7 +210,6 @@ def export_ucm_csv(out_file, template, allrandom, prettyname, usefaxemail):
             rendered_dict = eval(rendered)
             writer.writerow(rendered_dict)
 
-# @click.group(no_args_is_help=True)
 @click.command()
 @click.option('--template', type=click.Path(exists=True, dir_okay=False, readable=True, resolve_path=True),
               default=os.path.join(os.path.dirname(os.path.abspath(__file__)), "mappings.py"),
